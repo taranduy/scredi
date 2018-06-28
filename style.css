@@ -1,0 +1,279 @@
+@font-face {
+    font-family: Pompadur; /* Имя шрифта */
+    src: url(9404.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+
+body{
+	font-size: 15px;
+	margin: 0px;
+	font-family: Pompadur;
+	font-size: 15px !important;
+}
+
+
+
+.mainav{
+	
+	
+	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+
+}
+.mainav ul{
+	margin: 0px 0px 0px 0px;
+}
+.mainav ul li{
+	list-style:none;
+	display: inline-block;
+
+}
+
+#publnav ul{
+	display: none;
+	border-bottom: 2px solid black;
+	border-right: 1px solid rgba(0, 0, 0, 0.05);
+	border-left: 1px solid rgba(0, 0, 0, 0.05);
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	padding: 0px;
+}
+#publnav:hover ul{
+	position: absolute;
+	background-color: rgb(242, 242, 242);
+	display: block;
+	z-index: 701;
+}
+#publnav:hover{
+	background-color: rgb(242, 242, 242);
+}
+#publnav ul li{
+	display: block;
+	padding: 18px 0px 18px 0px;
+	font-size: 15px;
+	}
+#publnav ul li:hover{
+	background-color: rgb(230, 230, 230);
+}
+
+
+
+.mainav a{
+	color: #262626;
+	padding: 13px 38px 13px 26px;
+	text-decoration: none;
+}
+#contacatnav{
+	float: right;
+	padding: 0px 38px 0px 26px;
+}
+
+
+
+.undernav{
+	background-color: rgb(0, 120, 215);
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 5px 0% 5px 0%;
+	width: 100%;
+}
+
+content, .descriptionmain{
+	height: 450px;
+	background-color: grey;
+	display: block;
+	clear: both;
+}
+
+content{
+	background-color: white;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+
+.abovecont{
+	display: block;
+	height: 150px;
+	background-image: url(images/kredit-yuridicheskim-licam.jpg);
+	background-repeat: repeat-x;
+	
+
+}
+
+
+
+input, select {outline:none;}
+
+content input[type="text"]{
+	border: none;
+	border-bottom: 2px solid rgb(218, 218, 218);
+	height: 32px;
+	font-size: 15px;
+	width: 100%;
+}
+select{
+	border: none;
+	border-bottom: 2px solid rgb(218, 218, 218);
+	height: 32px;
+	font-size: 15px;
+
+}
+
+
+content input[type="text"]:focus{
+	border: none;
+	border-bottom: 2px solid #0e86d6;
+}
+select:focus{
+	border: none;
+	border-bottom: 2px solid #0e86d6;
+}
+
+.posttech{
+	display: inline-block;
+	width: 45%;
+	min-width: 270px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	padding: 0px 20px 0px 20px;
+
+}
+
+
+button{
+	background-color: #0e86d6;
+	color: #fff;
+	font-weight: 300;
+	min-width: 250px;
+	max-width: 400px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	font-size: 20px;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+
+
+.publview{
+	padding: 0px 5% 0px 5%;
+	vertical-align: middle;
+	margin: auto;
+	display: block;
+	clear: both;
+}
+
+.publv{
+	width: 22%;
+	min-width: 268px;
+	padding: 0px 1% 0px 1%;
+	display: inline-block;
+	margin-top: 48px;
+}
+
+
+.imgpv{
+	width: 267px;
+	height: 150px;
+}
+
+
+.publvtitle{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.displayy{
+	display: none;
+
+}
+.borderright{
+	border-right: 1px solid #000;
+}
+.publview, footer, content, .descriptionmain, .partners{
+	padding: 0px 5% 0px 5%;	
+}
+
+.partners{
+	color: rgba(0,0,0,0.6);
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	margin-top: 48px;
+	margin-bottom: 20px;
+}
+.partners img{
+	padding: 0px 5px 10px 5px;
+	margin-bottom: 10px;
+}
+
+footer{
+	background-color: rgb(242, 242, 242);
+	color: #000;
+}
+
+footer li{
+ list-style-type: none;
+ padding: 8px 0px 8px 0px;
+
+}
+
+.contacts{
+	display: inline-block;
+	padding: 0px 12px 0px 12px;
+}
+footer ul{
+	padding-left: 0px;
+	margin-bottom: 8px;
+}
+
+footer a{
+	color: #616161;
+	text-decoration: none;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+.title{
+	padding: 36px 0 4px 0px;
+}
+.divider{
+	display: block;
+	clear: both;
+}
+
+.underfooter{
+	padding: 30px 0px 16px 0; 
+}
+
+.langugef{
+	display: inline-block;
+	height: 24px;
+	vertical-align: center;
+	padding-right: 24px;
+}
+
+.langugef img{
+	padding-bottom: 10px;
+}
+.underfooter ul{
+	margin: 3px 0px 3px 0px;
+	float: right;
+}
+
+
+.underfooter li{
+	display: inline-block;
+	padding: 0px 24px 4px 0px;
+}
